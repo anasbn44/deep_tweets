@@ -13,7 +13,8 @@ This repository contains the code and resources for a deep learning-based tweet 
   - train.csv - the training set
   - test.csv - the test set
   - sample_saubmission.csv - a sample submission file in the correct format
-  Data fields
+  
+  Data fields :
   - TweetId - an anonymous id unique to a given tweet
   - Label - the associated label which is either Sports or Politics
   - TweetText - the text in a tweet
