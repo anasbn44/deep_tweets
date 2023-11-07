@@ -32,13 +32,13 @@ This repository contains the code and resources for a deep learning-based tweet 
 ## Models
 
 In this project, there are sevrale models used such as :
-- **RNN** (recurrent neural networks) : for this model a Bidirectional LSTM is used, other dropouts to ever came overfitting.
+- **RNN** (recurrent neural networks) : for this model a Bidirectional LSTM is used, other than dropouts to overcome overfitting.
 - **Multinomial Naive Bayes** (MultinomialNB)
 - **Logistic Regression** (LogisticRegression)
 
 
 For natural language processing techniques :
-- **Embedding** is used with pre-trained weights from [GloVe](https://nlp.stanford.edu/projects/glove/).
-- **TF-IDF**  (Term Frequency-Inverse Document Frequency) is used for some models for bette comparison.
+- **Embedding** is used with pre-trained weights from [GloVe](https://nlp.stanford.edu/projects/glove/) for RNN model.
+- **TF-IDF**  (Term Frequency-Inverse Document Frequency) is used for the other models for better comparison.
 
 Performing hyperparameter tuning using a grid search approach with **GridSearchCV** for the best selected model.
